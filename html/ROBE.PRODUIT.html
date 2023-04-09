@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/olinoproduct.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+
+    <ul class="nav justify-content-center" style="background-color: rgba(253, 163, 29, 0.205);">
+        <a href="../page acceuil  olinohtml.html"> <img src="../images/logo.olino.svg" alt=""
+                style="position: fixed;left: 30px;" width="100px"></a>
+
+        <img src="../images/téléchargement (1).svg" style="position: fixed;right: 30px; top:10px" alt="">
+    </ul>
+
+    <div class="" id="olinosite">
+        <div class="allsite1" id="allsite">
+            <div class="images_de_produits">
+                <div>
+                    <img src="../images/default.webp" id="img" class="imgproduit" alt="">
+                </div>
+                <div class="toutimg">
+                    <img src="../images/default.webp" width=50px alt="">
+                    <img src="../images/default (25).webp" width=50px alt=""
+                        onclick='changeImage("default.webp.webp");'>
+                    <img src="../images/default (26).webp" width=50px alt=""
+                        onclick='changeImage("default (26).webp");'>
+                    <img src="../images/default (27).webp" width=50px alt=""
+                        onclick='changeImage("default (27).webp");'>
+                    <img src="../images/default (28).webp" width=50px alt=""
+                        onclick='changeImage("default.webp.webp");'>
+                </div>
+            </div>
+            <div class="info_produit">
+                <h3 style="margin-top:10px;font-size: 25px;" id="nomproduit">Robe cache-cœur floral en viscose
+                    responsable</h3>
+                <p>800DH</p><span class="prixane">920DH</span>
+                <div style="display:flex ; margin: 5px;">
+                    <span>Couleur:</span>
+                    <div class="color"></div>
+                </div>
+
+
+
+                <h4
+                    style=" font-size: 16px;border-bottom: 1px solid rgb(255, 102, 0);padding:6px ;display: inline-block;">
+                    DESCRIPTION
+                </h4>
+                <div class="description">Une robe femme longue confectionnée en viscose responsable. Forme cache-coeur,
+                    encolure V croisée fermée par liens à nouer, longueur midi, manches ¾ resserrées, fronces épaules,
+                    imprimé fleuri en all over. Le mannequin mesure 1.70M et
+                    porte une taille 38. Ce produit a été fabriqué à partir d'une matière naturelle issue de
+                    l'agriculture biologique, respectueuse de l'environnement, qui utilise moins d'eau et aucun
+                    pesticide chimique. </div>
+
+                <div class="COMPOSITION">
+                    <div>
+                        <h4
+                            style="font-size: 16px;border-bottom: 1px solid rgb(255, 102, 0);padding:6px ;display: inline-block;">
+                            COMPOSITION & ENTRETIEN</h4>
+                        <ul>
+                            <li>100% Viscose</li>
+                            <li>Lavage 30°</li>
+                            <li>Repassage doux</li>
+                            <li>Chlore interdit</li>
+                            <li>Séchoir interdit</li>
+                            <li>Nettoyage à sec interdit</li>
+                        </ul>
+                    </div>
+                    <div class="commend">
+                        <span>Entrez vos informations personnelles pour compléter la commonde :</span>
+                        <div class="commend1">
+                            <div class="nome">
+                                <input name="hhh" placeholder="  votre nom" id="nome" type="text">
+                                <input name="hhh" placeholder="N de téléphone" id="ntele" type="number">
+                            </div>
+                            <div class="nome">
+                                <input name="hhh" placeholder="Ville" id="ville" type="text">
+                                <input name="hhh" placeholder="Email" id="email" type="text">
+                            </div>
+
+                            <div class="nome">
+                                <input name="hhh" placeholder="Adresse" id="adresse" type="text" style="width: 100%;">
+                            </div>
+
+                            <ul class="taile" style="margin-left:-10px ;">Taille :
+                                <li> <input type="radio" id="contactChoice1" name="taile" value="S">S</li>
+                                <li><input type="radio" id="contactChoice1" name="taile" value="M">M</li>
+                                <li><input type="radio" id="contactChoice1" name="taile" value="L">L</li>
+                                <li><input type="radio" id="contactChoice1" name="taile" value="XL">XL</li>
+                                <li><input type="radio" id="contactChoice1" name="taile" value="XLL">XLL</li>
+                                <li>
+                                    <div style="display: inline;">
+                                        <p>Quantité:</p>
+                                        <input type="number" id="quantite">
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <a href="tankyou.page.html"><button onclick="clickr(),getName()"
+                                class="achter">ACHETER</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div></div>
+    </div>
+    <script src="../js/olinojs.js"></script>
+    <script src="../js/thankyou.page.js"></script>
+</body>
+
+</html>

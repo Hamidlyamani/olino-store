@@ -1,0 +1,176 @@
+   body {
+       font-size: 12px;
+       font-weight: 600 !important;
+   }
+
+   .allsite1 {
+       display: flex;
+
+   }
+
+   .images_de_produits {
+       width: 34%;
+       padding: 20px;
+       margin-top: 57px;
+
+       display: inline;
+   }
+   .images_de_produits .imgproduit{
+  border: 2px solid rgb(255, 174, 0);
+border-radius: 10px;}
+   .toutimg {
+
+       width: 340px;
+       height: 80px;
+       margin: 20px auto;
+       border-radius: 10px;
+       display: flex;
+       justify-content: space-around;
+       padding: 7px;
+   }
+
+   .toutimg img {
+       border: 2px solid rgb(255, 174, 0);
+       border-radius: 5px;
+   }
+
+   .info_produit {
+    margin: 12px;
+       margin-top: 55px;
+       width: 66%;
+       display: inline;
+
+   }
+
+   .info_produit .prixane {
+       text-decoration: line-through;
+       font-size: 16px;
+       display: inline;
+       margin-left: 30PX;
+   }
+
+   .info_produit P,
+   .info_produit .color {
+       display: inline;
+       font-size: 16px;
+   }
+
+   .info_produit .color {
+       display: block;
+       margin-left: 30px;
+       height: 20px;
+       background-color: rgb(212, 121, 1);
+       width: 30px;
+   }
+
+   .info_produit .taile {
+       display: inline;
+   }
+
+   .info_produit .taile li {
+       display: inline;
+   }
+
+   .info_produit #nom {
+       width: 50px;
+   }
+
+   .info_produit .description {
+       
+       font-size: 13px;
+
+   }
+
+   .info_produit .COMPOSITION {
+       display: flex;
+       height: 300px;
+       justify-content: space-between;
+        font-size: 13px;margin-top: 20px;
+   }
+
+   .info_produit .COMPOSITION .commend {
+       width: 500px;
+       margin:0px 20px;
+       padding: 10px;
+       height: 330px;
+       border-radius: 10px;
+       background-color: bisque;
+       font-size: 14px;
+   }
+
+   .commend .commend1 div {
+       display: flex;
+       margin: 10px;
+   }
+
+   .commend .commend1 .nome input {
+       width: 90%;
+       margin: 4px;
+       height: 40PX;
+   }
+
+   .achter {
+       border: 2px solid rgb(255, 166, 0);
+       height: 50px;
+       display: flex;
+       border-radius: 8px;
+       width: 30%;
+       background-color: rgb(255, 164, 59);
+       margin:20px auto;
+       padding: 10px;
+       justify-items: center;
+       font-size: 21;
+       font-weight: 700;
+       text-align: center;
+       justify-content: center;
+       color: aliceblue;
+   }
+
+   .achter:hover {
+       background-color: rgb(224, 103, 3);
+   }
+
+   .produit_client {
+       display: flex;
+       width: 900px;
+   }
+
+   .tanckyou {
+       width: 90%;
+       margin: 0px auto;
+   }
+
+   .tanckyou h4 {
+       text-align: center;
+       margin: 20px auto;
+   }
+
+   .produit_client {
+       margin: 10px auto;
+       width: 95%;
+   }
+
+   .produit_client div {
+       width: 100%;
+       border: 3px solid rgb(255, 102, 0);
+       border-radius: 15px;
+       margin: 10px;
+       padding: 10px;
+   }
+
+   .ikhanhh {
+       color: rgb(255, 102, 0);
+       font-size: 18px;
+       display: inline;
+   }
+
+   .color1 {
+       display: inline-block;
+       height: 20px;
+       width: 40px;
+   }
+
+
+
+
+   /* mjjnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */

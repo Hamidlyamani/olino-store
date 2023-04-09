@@ -1,0 +1,257 @@
+
+  /*dubet de style de produits */
+
+ section .card-group {
+     margin:  58px auto;
+     width: 95%;
+     display: flex;
+  
+ }
+ 
+ .section1 .card-group .card {
+     overflow: hidden;
+     height: 500px;
+     margin: 1%; 
+     background-color: antiquewhite;
+     border-radius: 10px;
+ }
+ 
+ .section1 .card-group .card .card-img-top {
+     height: 60%;
+     margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+ }
+ 
+ .card-group .card .card-img-top:hover {
+     transform: scale(1.3, 1.3) translateY(27px);
+    
+ }
+ 
+ .section1 .card-group .card .star {
+     margin: 4px auto;
+     height: 20px;
+     display: flex;
+     width: 140px;
+ }
+ 
+ .section1 .card-group .card .star .sfr {
+     background-repeat: repeat-x;
+     background-size: contain;
+     height: 20px;
+     display: inline-block;
+     width: 80%;
+     background-image: url(images/téléchargement.svg);
+ }
+ 
+ .section1 .card-group .card .star .grey {
+     background-repeat: repeat-x;
+     background-size: contain;
+     height: 20px;
+     display: inline-block;
+     width: 20%;
+     background-image: url(images/star.svg);
+ }
+ 
+ .section1 .card-group .card .card-body {
+     margin: 0px auto;
+     text-align: center;
+ }
+ 
+ .card-group .card .card-body p,
+ .card-group .card .card-body span {
+     display: inline;
+     margin: 4px;
+ }
+ 
+ .section1 .card-group .card .card-body span {
+     text-decoration: line-through;
+     font-size: 17px;
+ }
+ 
+ .section1 .card-group .card .card-title {
+     font-size: 16px;
+     font-weight: 900;
+ }
+ 
+ .section1 .card-group .card .card-footer {
+     background-color: rgb(253, 250, 246);
+     text-align: center;
+     color: black;
+     border: 2px solid rgb(252, 129, 14);
+     border-radius: 10px;
+     margin: 8px 23px;
+ }
+ 
+ .section1 .card-group .card .card-footer .text-muted {
+     text-align: center;
+     color: rgb(214, 21, 21);
+     font-size: 18px;
+     margin: 0px auto;
+ }
+  /*fin de style de produits */
+
+  /*debut  de style de page d'acceuil */
+  .homepage{
+  display: flex;
+  }
+  .section10 {
+      background-image: url(../images/background_section1.png.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex; 
+     height: 100vh;
+      align-items:flex-end
+}
+.icon-scroll {
+    position: relative;
+    left: 120%;
+    top: 15px;
+    content: '';
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    
+    border-radius: 4px;
+    animation-duration: 2s;
+    transform: rotate(45deg);
+    animation-iteration-count: infinite;
+    animation-name: scroll; 
+}
+/*fin  de style de page d'acceuil */
+
+
+
+/*debut  de style de button de 
+"ACHETER Voir plus de vêtements pour famme , hommes , promotion"*/
+ .btn_decovrire {
+    border: 1px solid rgb(250, 167, 14);
+     background-color: rgba(252, 152, 30, 0.952);
+     margin: 5px;
+     border-radius: 10px;
+     padding: 15px;
+     font-weight: 800;
+     color:rgb(255, 255, 255);
+ }
+ .link_decovrir{
+    flex: 1 100%;display: flex;
+    align-items: center;justify-content: center;justify-items: center;
+ }
+ .les_dalie {
+     background-color: rgb(253, 112, 11);
+     background-size: cover;
+     margin:10px auto;
+     width: 6%;
+     display: flex;
+     height: 66px;
+     padding: 0px;
+    flex: 1 100%;
+    border-radius: 5px;
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    justify-items: center;
+ }
+ 
+ .les_dalie .article {
+     display: flex;
+ }
+ 
+ .les_dalie .titre {
+     color: rgb(252, 252, 252);
+     font-weight: 100;
+     font-size: 30px;
+     margin-left: 120px;
+     margin-top: 10px;
+ }
+ 
+ .les_dalie .article span {
+     font-size: 37px;
+     margin: 3px;
+     margin-left: 120px;
+     width: 60px;
+     color: rgb(253, 112, 11);
+     background-color: aqua;
+     border-radius: 50%;
+ }
+ 
+ .les_dalie .article p {
+     font-size: 17px;
+     margin-top: 20px;
+     color: rgb(252, 252, 252);
+ }
+ /*fin  de style de button de 
+"ACHETER Voir plus de vêtements pour famme , hommes , promotion"*/
+ 
+
+
+
+/*debut  de style section de apropose olino*/
+.ABOUTOLINO {
+     margin: 60px auto;
+     width: 90vw;
+     height: 88.3vh;
+     border: 2px salmon solid;
+     border-radius: 20px;
+     overflow: hidden;
+ }
+ 
+ .ABOUTOLINO h1 {
+     margin: 10px;
+ }
+ 
+ .dif_img {
+     border-radius: 30px;
+     width: 100%;
+     margin: auto;
+     display: flex;
+ }
+ 
+ .dif_img .dif {
+     margin: 20PX;
+     font-weight: 100;
+     font-size: 20px;
+     width: 50%;
+     background-color: antiquewhite;
+     padding: 20px;
+     border-radius: 20px;
+ }
+ 
+ .dif_img .dif .grandtext {
+     font-weight: 700;
+     display: inline;
+ }
+ 
+ .contact1 {
+     background-color: rgb(175, 87, 4);
+     margin: 0px auto;
+     width: 100%;
+     color: rgb(255, 255, 255);
+     font-size: 12px;
+     margin-top: 35px;display: flex;
+     justify-content:space-around;
+ }
+ .textm {
+     text-decoration: line-through;
+ }
+ 
+/*debut  de style section de a propose olino*/
+
+
+
+ 
+ @keyframes scroll {
+     0% {
+         transform: translateX(-80px);
+         opacity: 0.5;
+      
+     }
+     50% {
+         opacity: 1;
+      
+     }
+     100% {
+         transform: translateX(106px);
+         opacity: 0;
+      
+     }
+ }
